@@ -1,0 +1,18 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: anton
+ * Creation Date: 19 nov 2022 at 11:18:26
+ *********************************************/
+
+ 
+ stabilimentiCal = {A, G, I};
+ stabilimentiCam = {C, D, H};
+ stabilimentiLaz = {B, E, F, L};
+ 
+ allocazione = #[A: Calabria, B: Lazio, C: Campania, D: Campania, E: Lazio, F: Lazio, G: Calabria, H: Campania, I: Calabria, L: Lazio]#;
+ 
+ attivazione = #[A: 200, B: 400, C: 300, D: 500, E: 200, F: 350, G: 400, H: 550, I: 300, L:300]#;
+ 
+ produzione = #[A: 1000, B: 1500, C: 800, D: 1200, E: 900, F: 1200, G: 950, H: 1100, I: 1000, L: 1200]#;
+ 
+ 

@@ -1,0 +1,15 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: utente
+ * Creation Date: 29 nov 2022 at 17:54:08
+ *********************************************/
+
+
+city = {RC CS CZ VV};
+  min_trasf = [5 5 5 5];
+ 
+  Trasferimenti = {<RC,CS> <RC,CZ> <RC,VV> <CS,RC> <CS,CZ> <CS,VV> <CZ,RC> <CZ,CS> <CZ,VV> <VV,RC> <VV,CS> <VV,CZ>};		//Coppia di valori secondo la dichiarazione della tupla
+ 
+ 
+ 
+  S = [150 400 300 150 250 200 400 250 200 300 200 200];

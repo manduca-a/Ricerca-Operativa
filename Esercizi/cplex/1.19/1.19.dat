@@ -1,0 +1,21 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: utente
+ * Creation Date: 15 nov 2022 at 16:53:25
+ *********************************************/
+
+ 
+  //insiemi e dati
+ 
+stabilimento1 = {"A", "B"};
+stabilimento2 = {"C", "D"};
+modello1 = {"berline3", "berline5"};
+modello2 = {"station-wagon", "monovolume"};
+
+
+capProd = [300, 220,320,200];
+costoAtt = [250, 200, 300, 230];
+budget=500;
+costiProd = [11, 12, 14, 13];
+costiVend = [14, 16, 18, 17];
+quantMin = 50;

@@ -1,0 +1,31 @@
+NEL FILE .mod:
+
+	//Insiemi
+						setof(tipo_di_dato)nome_insieme=...;
+	Esempio:		setof(string) dolci=...;
+
+
+	//Variabili
+						tipo_di_dato nome_variabile = contenuto;
+	Esempio:		int minimo = 20;
+
+
+	//Array e Matrici
+						tipo_di_dato nome_array[nome_insieme]=...;
+	Esempio:		int risorse[dolci][basi]=...;
+
+
+	//Variabili Decisionali
+						dvar tipo_di_dato[insieme];
+	Esempio:		dvar boolean x[stabilimenti];		//	tipo_di_dato di dvar può essere int, int+, boolean, float
+
+
+	//Funzione Obiettivo
+						minimize operatore(lettera in insieme) variabile decisionale[lettera];
+	Esempio:		maximize forall(j in alberghi) sum(i in clienti) x[i][j]		//	operatore può essere sum, forall
+
+	
+	//Vincoli
+	Esempio:		constraints{
+							sum(i in dolci, j in basi) prod[i][j] * x[i] <= minimo;
+						}
